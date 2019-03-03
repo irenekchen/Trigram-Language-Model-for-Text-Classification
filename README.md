@@ -90,7 +90,8 @@ Then we add the log probabilities. Regular probabilities would quickly become to
 The method perplexity(corpus), computes the perplexity of the model on an entire corpus. 
 The perplexity is defined as 2-l, where l is defined as: 
 
-(https://github.com/irenekchen/Trigram-Language-Model-for-Text-Classification/edit/master/perplexity.png)
+![Perplexity Image]
+(https://github.com/irenekchen/Trigram-Language-Model-for-Text-Classification/blob/master/perplexity.png)
 
 Here M is the total number of words. So to compute the perplexity, sum the log probability for each sentence, and then divide by the total number of words in the corpus. 
 
